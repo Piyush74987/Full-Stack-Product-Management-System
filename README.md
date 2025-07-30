@@ -1,6 +1,4 @@
-# Product-Mangement-System
-
-# ProdigyHub – Full Stack Product Management System
+# Full Stack Product Management System
 
 A robust full-stack web application for managing product information with ease. Built using **Spring Boot, Spring Data JPA, Hibernate, and MySQL** on the backend, and **React, Bootstrap, HTML, CSS, and JavaScript** on the frontend.
 
