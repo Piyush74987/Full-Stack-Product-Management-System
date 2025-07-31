@@ -7,6 +7,7 @@ import {BrowserRouter,Routes,Route}from 'react-router-dom';
 import { HeadComp } from './Components/Headercomp';
 import ListProductComp from './Components/ListProductComp';
 import CreateProductComp from './Components/CreateProductComp';
+import UpdateProductComp from './Components/UpdateProduct';
 
 
 
@@ -17,7 +18,8 @@ function App() {
     <HeadComp></HeadComp>
       <Routes>
         <Route path='/' element={<ListProductComp/>}></Route>
-        <Route path='/add product'element={<CreateProductComp></CreateProductComp>}></Route>
+        <Route path='/add-product' element={<CreateProductComp/>}></Route>
+        <Route path='/update-product/:id' element={<UpdateProductComp/>}></Route>
 
       </Routes>
       <FootComp></FootComp>

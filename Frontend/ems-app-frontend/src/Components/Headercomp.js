@@ -4,7 +4,7 @@ export const HeadComp=()=>{
     return(
         <div>
            <header className="navbar navbar-dark bg-dark">
-                <a href='#' class="navbar-brand">Employee Mangement Service</a>
+                <a href='#' class="navbar-brand">Product Mangement System</a>
            </header>     
         </div>
     )

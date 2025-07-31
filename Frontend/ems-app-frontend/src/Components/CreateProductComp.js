@@ -16,7 +16,7 @@ export default  function CreateProductComp(){
 
         createProduct(product).then((Response)=>{
             console.log(Response.data);
-            nav('/products');
+            nav('/');
         })
     }
     return(

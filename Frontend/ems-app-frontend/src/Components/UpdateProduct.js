@@ -10,15 +10,15 @@ export default function UpdateProductComp(){
     const {id}=useParams();
 
     useEffect(()=>{
-        if(Id){
-            getProductById(Id)
+        if(id){
+            getProductById(id)
             .then((Response)=>{
                 const p=Response.data;
                 console.log(p);
                 setProductName(p.productName)
                 setProductPrice(p.productPrice)
                 setProductQty(p.productQty)
-                setProductCategory(p.setProductCategory)   
+                setProductCategory(p.productCategory)   
             }).catch((Error)=>{
                 console.log(Error);
             })
@@ -34,7 +34,7 @@ export default function UpdateProductComp(){
           updateProduct(id,product)
           .then((response)=>{
             console.log(response.data);
-            nav('/product');
+            nav('/');
           })
         }
     
