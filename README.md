@@ -5,26 +5,6 @@
   Built using <strong>Spring Boot, Hibernate, MySQL</strong> (Backend) and <strong>React, Bootstrap</strong> (Frontend).
 </p>
 
-<p align="center">
-  🔗 <strong>Live Demo:</strong> <em>Add your deployed link here if hosted</em>
-</p>
-
-<hr>
-
-<h2>📚 Table of Contents</h2>
-
-<ul>
-  <li><a href="#-features">Features</a></li>
-  <li><a href="#-tech-stack">Tech Stack</a></li>
-  <li><a href="#-architecture">Architecture</a></li>
-  <li><a href="#-project-structure">Project Structure</a></li>
-  <li><a href="#-screenshots">Screenshots</a></li>
-  <li><a href="#-getting-started">Getting Started</a></li>
-  <li><a href="#-future-enhancements">Future Enhancements</a></li>
-  <li><a href="#-author">Author</a></li>
-  <li><a href="#-license">License</a></li>
-</ul>
-
 <hr>
 
 <h2>🚀 Features</h2>
