@@ -1,90 +1,126 @@
-# 🛍️ Full Stack Product Management System
+<h1 align="center">🛍️ Full Stack Product Management System</h1>
 
-A robust and scalable full-stack web application for managing product data efficiently. This system enables users to perform CRUD operations on product records through a user-friendly interface built with **React**, while leveraging the power of **Spring Boot**, **Hibernate**, and **MySQL** on the backend.
+<p align="center">
+  A robust and scalable full-stack web application for managing product data efficiently.<br>
+  Built using <strong>Spring Boot, Hibernate, MySQL</strong> (Backend) and <strong>React, Bootstrap</strong> (Frontend).
+</p>
 
-> 🔗 Live Demo (optional): _Add your deployed link here if hosted_
+<p align="center">
+  🔗 <strong>Live Demo:</strong> <em>Add your deployed link here if hosted</em>
+</p>
 
----
+<hr>
 
-## 📚 Table of Contents
+<h2>📚 Table of Contents</h2>
 
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Architecture](#-architecture)
-- [Project Structure](#-project-structure)
-- [Screenshots](#-screenshots)
-- [Getting Started](#-getting-started)
-- [Future Enhancements](#-future-enhancements)
-- [Author](#-author)
-- [License](#-license)
+<ul>
+  <li><a href="#-features">Features</a></li>
+  <li><a href="#-tech-stack">Tech Stack</a></li>
+  <li><a href="#-architecture">Architecture</a></li>
+  <li><a href="#-project-structure">Project Structure</a></li>
+  <li><a href="#-screenshots">Screenshots</a></li>
+  <li><a href="#-getting-started">Getting Started</a></li>
+  <li><a href="#-future-enhancements">Future Enhancements</a></li>
+  <li><a href="#-author">Author</a></li>
+  <li><a href="#-license">License</a></li>
+</ul>
 
----
+<hr>
 
-## 🚀 Features
+<h2>🚀 Features</h2>
 
-- 🔐 **Product Dashboard (React + Bootstrap)**  
-  Intuitive UI for viewing, adding, editing, and deleting products.
+<ul>
+  <li><strong>🔐 Product Dashboard:</strong> React + Bootstrap UI for product CRUD operations</li>
+  <li><strong>📦 Full CRUD:</strong> Add, update, delete, and view products with Spring Boot REST API</li>
+  <li><strong>🔍 Live Search:</strong> Filter products by name/category instantly</li>
+  <li><strong>⚙️ RESTful APIs:</strong> Built with Spring MVC + JPA + Hibernate</li>
+  <li><strong>💾 Data Persistence:</strong> MySQL as backend database</li>
+  <li><strong>🌐 Responsive Design:</strong> Fully mobile-optimized using Bootstrap 5</li>
+</ul>
 
-- 📦 **CRUD Operations**  
-  Complete Create, Read, Update, and Delete functionality with REST API integration.
+<hr>
 
-- 🔍 **Live Product Search**  
-  Filter product records dynamically by name or category.
+<h2>💠 Tech Stack</h2>
 
-- ⚙️ **Spring Boot RESTful APIs**  
-  Backend APIs built with Spring MVC, JPA, and Hibernate.
+<h4>🖙 Backend (Java)</h4>
+<ul>
+  <li>Java 17+</li>
+  <li>Spring Boot</li>
+  <li>Spring Data JPA</li>
+  <li>Hibernate ORM</li>
+  <li>MySQL</li>
+  <li>Maven</li>
+</ul>
 
-- 💾 **Data Persistence with MySQL**  
-  Structured and efficient storage of product data.
+<h4>🔜 Frontend (React)</h4>
+<ul>
+  <li>React.js (Hooks + Functional Components)</li>
+  <li>Bootstrap 5</li>
+  <li>Axios</li>
+  <li>HTML5, CSS3, JavaScript (ES6+)</li>
+</ul>
 
-- 🌐 **Fully Responsive Frontend**  
-  Optimized for desktops, tablets, and mobile devices using Bootstrap 5.
+<hr>
 
----
+<h2>🧱 Architecture</h2>
 
-## 🛠️ Tech Stack
-
-### 🔙 Backend (Java)
-- Java 17+
-- Spring Boot
-- Spring Data JPA
-- Hibernate ORM
-- MySQL Database
-- Maven
-
-### 🔜 Frontend (React)
-- React.js (Functional Components + Hooks)
-- Bootstrap 5
-- Axios (API communication)
-- HTML5, CSS3, JavaScript (ES6+)
-
----
-
-## 🧱 Architecture
-
-text
+<pre>
 Frontend (React.js)
     ⬇️ Axios API Calls
 Backend (Spring Boot REST API)
     ⬇️ JPA Repository
 Database (MySQL)
+</pre>
 
-Full-Stack-Product-Management-System/ <br>
-├── backend/                     # Spring Boot Backend <br>
-│   ├── controller/              # REST Controllers <br>
-│   ├── model/                   # JPA Entity <br>
-│   ├── repository/              # Spring Data JPA Repos  <br>
-│   ├── service/                 # Business Logic Layer  <br>
+<p><em>Each layer is loosely coupled, ensuring flexibility and ease of maintenance.</em></p>
+
+<hr>
+
+<h2>📂 Project Structure</h2>
+
+<pre>
+Full-Stack-Product-Management-System/
+├── backend/
+│   ├── controller/
+│   ├── model/
+│   ├── repository/
+│   ├── service/
 │   └── resources/
-│       └── application.properties  <br>
-│   └── pom.xml  <br>
-├── frontend/                    # React Frontend  <br>
-│   ├── src/  <br>
-│   │   ├── components/          # Reusable components (AddProduct, ProductList)  <br>
-│   │   ├── App.js  <br>
-│   │   └── index.js  <br>
+│       └── application.properties
+│   └── pom.xml
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── App.js
+│   │   └── index.js
 │   └── public/
-│       ├── index.html  <br>
-│       └── favicon.ico  <br>
-└── README.md  <br>
+│       ├── index.html
+│       └── favicon.ico
+└── README.md
+</pre>
 
+<hr>
+
+<h2>🖼️ Screenshots</h2>
+
+<table>
+  <tr>
+    <th>Dashboard View</th>
+    <th>Add Product Form</th>
+  </tr>
+  <tr>
+    <td><img src="frontend/public/dashboard.png" width="400"/></td>
+    <td><img src="frontend/public/form.png" width="400"/></td>
+  </tr>
+</table>
+
+<p><em>💡 Make sure you place screenshots in the <code>frontend/public/</code> folder.</em></p>
+
+<hr>
+
+<h2>⚙️ Getting Started</h2>
+
+<h4>🔧 Backend Setup (Spring Boot)</h4>
+
+```bash
+cd backend
