@@ -98,9 +98,3 @@ Full-Stack-Product-Management-System/
 
 <hr>
 
-<h2>⚙️ Getting Started</h2>
-
-<h4>🔧 Backend Setup (Spring Boot)</h4>
-
-```bash
-cd backend
