@@ -87,10 +87,12 @@ Full-Stack-Product-Management-System/
   <tr>
     <th>Dashboard View</th>
     <th>Add Product Form</th>
+    <th>update Product Form</th>
   </tr>
   <tr>
-    <td><img src="frontend/public/dashboard.png" width="400"/></td>
-    <td><img src="frontend/public/form.png" width="400"/></td>
+    <td><img width="1920" height="1080" alt="Screenshot (52)" src="https://github.com/user-attachments/assets/e7f23322-5210-4f63-b127-b505730635e8"   width="400" /></td>
+    <td><img width="1920" height="1080" alt="Screenshot (53)" src="https://github.com/user-attachments/assets/1a5f9d5e-5078-4335-a9a7-64eca9fc9458"  width="400" /></td>
+    <td><img width="1920" height="1080" alt="Screenshot (54)" src="https://github.com/user-attachments/assets/b2ddfba6-22ab-4b2e-8679-ee6eeb1f9179" width="400" /></td>
   </tr>
 </table>
 
