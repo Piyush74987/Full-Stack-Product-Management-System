@@ -95,8 +95,5 @@ Full-Stack-Product-Management-System/
     <td><img width="1920" height="1080" alt="Screenshot (54)" src="https://github.com/user-attachments/assets/b2ddfba6-22ab-4b2e-8679-ee6eeb1f9179" width="400" /></td>
   </tr>
 </table>
-
-<p><em>💡 Make sure you place screenshots in the <code>frontend/public/</code> folder.</em></p>
-
 <hr>
 
